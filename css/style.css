@@ -4,11 +4,9 @@
     color: white;
 }
 
-body {
-    background-image: url(../images/stranger-things-body.jpg);
+.wallpaper {
+    background-image: url(/images/stranger-things-wpp1.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .logo {
@@ -48,7 +46,7 @@ body {
 
 .header > ul > li a:hover {
     color: rgb(129, 12, 12);
-    border-bottom: 2px solid rgb(129, 12, 12);
+    border-bottom: 2px solid rgb(99, 13, 13);
     padding-bottom: 5%;
     line-height: 1;
 }
@@ -61,18 +59,48 @@ body {
     padding-top: 10%;
     width: 35%;
     padding-left: 2%;
+    padding-bottom: 16%;
 }
 
 .title > h1 {
     font-size: 60px;
     font-weight: 1000;
+    padding-bottom: 5%;
+}
+
+.title > h5 {
+    padding-bottom: 2%;
+}
+
+.gradient {
+    background-image: linear-gradient(rgb(99, 13, 13), black);
+    color: transparent;
+}
+
+button {
+    width: 30%;
+    padding: 1%;
+    font-weight: 1000;
+    color: black;
+    border-radius: 8% !important;
+}
+
+i {
+    color: black;
+    padding-right: 6%;
+}
+
+.wallpaper-2 {
+    background-image: url(/images/stranger-things-wpp-2.png);
+    background-size: cover;
 }
 
 .carousel-menu {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 40%;
+    padding-top: 5.5%;
+    padding-bottom: 10%;
 }
 
 .carousel-menu > h3 {
@@ -82,11 +110,11 @@ body {
 }
 
 .img-carousel {
-    width: 80%;
+    width: 65%;
     height: 500px;
 }
 
 iframe {
-    width: 80%;
+    width: 65%;
     height: 500px;
 }
