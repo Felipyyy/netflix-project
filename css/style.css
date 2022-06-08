@@ -4,6 +4,8 @@
     color: white;
 }
 
+/* header */
+
 .wallpaper {
     background-image: url(/images/stranger-things-wpp1.png);
     background-size: cover;
@@ -55,6 +57,8 @@
     transition: 0.45s ease-in-out;
 }
 
+/* title */
+
 .title {
     padding-top: 10%;
     width: 35%;
@@ -90,6 +94,8 @@ i {
     padding-right: 6%;
 }
 
+/* carousel  */
+
 .wallpaper-2 {
     background-image: url(/images/stranger-things-wpp-2.png);
     background-size: cover;
@@ -118,3 +124,6 @@ iframe {
     width: 65%;
     height: 500px;
 }
+
+/* saiba mais */
+
